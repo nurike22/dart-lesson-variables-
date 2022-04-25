@@ -1,2 +1,1 @@
-# dart-lesson-variables-
-dart lesson variables practice
+A simple command-line application.
