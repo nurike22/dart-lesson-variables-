@@ -1,4 +1,7 @@
 void  main(List<String> arguments) {
+
+  String domashka = 'Домашняя работа';
+  print(domashka);
   
   final String address = 'Suumbaeva st., Bishkek';
 
