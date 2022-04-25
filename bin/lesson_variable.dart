@@ -1,5 +1,8 @@
 void main(List<String> arguments) {
   
+  String domashka = 'Домашняя работа 1';
+  print(domashka);
+
     double b =4.20;
     int a = 3;
     print(a+b);

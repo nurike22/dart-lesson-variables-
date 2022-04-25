@@ -1,6 +1,6 @@
 void  main(List<String> arguments) {
 
-  String domashka = 'Домашняя работа';
+  String domashka = 'Домашняя работа 2';
   print(domashka);
   
   final String address = 'Suumbaeva st., Bishkek';
