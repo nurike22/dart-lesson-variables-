@@ -1,11 +1,5 @@
 void main(List<String> arguments) {
-  dynamic hello = 'Hello World! This is my first project aqwe';
   
-
-const String newConst = 'qwe';
-
-    print(newConst);
-
     double b =4.20;
     int a = 3;
     print(a+b);
