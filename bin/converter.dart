@@ -66,7 +66,8 @@ void main(List<String>args) {
 
    var uslovie2 = stdin.readLineSync();
      
-     
+     //input data: usd,euro,rub and tenge
+
      if (uslovie2 == 'usd') {
        print('Сумма для обмена');
        var uslovie3 = stdin.readLineSync();
