@@ -1,14 +1,16 @@
+import 'dart:io';
+
 void main(List<String>args) {
   print('Курс на сегодня:');
-  var USD = 84;
-  var EURO = 87;
-  var RUB = 1.19;
-  var KZT = 0.18;
+  var usd = 84;
+  var euro = 87;
+  var rub = 1.19;
+  var kzt = 0.18;
 
- var a = 'Доллар США = ' + USD.toString() + ' сом ';
- var b = 'Евро = ' + EURO.toString() + ' сом ';
- var c = 'Рубль = ' + RUB.toString() + ' сом ';
- var d = 'Тенге = ' + KZT.toString() + ' сом ';
+ var a = 'Доллар США = ' + usd.toString() + ' сом ';
+ var b = 'Евро = ' + euro.toString() + ' сом ';
+ var c = 'Рубль = ' + rub.toString() + ' сом ';
+ var d = 'Тенге = ' + kzt.toString() + ' сом ';
 
  print(a);
  print(b);
@@ -18,76 +20,76 @@ void main(List<String>args) {
  print('1. Хотите обменять другую валюту на сом?');
  print('2. Хотите обменять сом на другую валюту?');
 
- var Uslovie = stdin.readLineSync();
-  if (Uslovie == '1') {
+ var uslovie = stdin.readLineSync();
+  if (uslovie == '1') {
     print('Выберете валюту:');
     print('Доллар США');
     print('Евро');
     print('Рубль');
     print('Тенге');
 
-     var Uslovie2 = stdin.readLineSync();
+  var uslovie2 = stdin.readLineSync();
      
      
-     if (Uslovie2 == 'Доллар США') {
-       print('Сумма для обмена');
-       var Uslovie3 = stdin.readLineSync();
-       var Result = int.parse(Uslovie3!) * int.parse(USD);
-       print(Result);
+   if (uslovie2 == 'usd') {
+     print('Сумма для обмена');
+     var uslovie3 = stdin.readLineSync();
+     var result = int.parse(uslovie3!) * (usd);
+     print(result);
      } 
-     if (Uslovie2 == 'Евро') {
+     if (uslovie2 == 'euro') {
      print('Сумма для обмена');
-     var Uslovie3 = stdin.readLineSync();
-       var Result = int.parse(Uslovie3!) * int.parse(EURO);
-       print(Result);
+     var uslovie3 = stdin.readLineSync();
+       var result = int.parse(uslovie3!) * (euro);
+       print(result);
      }
-     if (Uslovie2 == 'Рубль') {
+     if (uslovie2 == 'rub') {
      print('Сумма для обмена');
-     var Uslovie3 = stdin.readLineSync();
-       var Result = int.parse(Uslovie3!) * int.parse(RUB);
-       print(Result);
+     var uslovie3 = stdin.readLineSync();
+       var result = int.parse(uslovie3!) * (rub);
+       print(result);
      }
-     if (Uslovie2 == 'Тенге') {
+     if (uslovie2 == 'tenge') {
      print('Сумма для обмена');
-     var Uslovie3 = stdin.readLineSync();
-       var Result = int.parse(Uslovie3!) * int.parse(KZT);
-       print(Result);
+     var uslovie3 = stdin.readLineSync();
+       var result = int.parse(uslovie3!) * (kzt);
+       print(result);
      }
      
     
-  } else if (Uslovie == '2') {
+  } else if (uslovie == '2') {
     print('Выберете валюту:');
     print('Доллар США');
     print('Евро');
     print('Рубль');
     print('Тенге');
 
-   var Uslovie2 = stdin.readLineSync();
+   var uslovie2 = stdin.readLineSync();
      
      
-     if (Uslovie2 == 'Доллар США') {
+     if (uslovie2 == 'usd') {
        print('Сумма для обмена');
-       var Uslovie3 = stdin.readLineSync();
-       var Result = int.parse(Uslovie3!) / int.parse(USD);
-       print(Result);
+       var uslovie3 = stdin.readLineSync();
+       var result = int.parse(uslovie3!) / (usd);
+       print(result);
      } 
-     if (Uslovie2 == 'Евро') {
+     if (uslovie2 == 'euro') {
      print('Сумма для обмена');
-     var Uslovie3 = stdin.readLineSync();
-       var Result = int.parse(Uslovie3!) / int.parse(EURO);
-       print(Result);
+     var uslovie3 = stdin.readLineSync();
+       var result = int.parse(uslovie3!) / (euro);
+       print(result);
      }
-     if (Uslovie2 == 'Рубль') {
+     if (uslovie2 == 'rub') {
      print('Сумма для обмена');
-     var Uslovie3 = stdin.readLineSync();
-       var Result = int.parse(Uslovie3!) / int.parse(RUB);
-       print(Result);
+     var uslovie3 = stdin.readLineSync();
+       var result = int.parse(uslovie3!) / (rub);
+       print(result);
      }
-     if (Uslovie2 == 'Тенге') {
+     if (uslovie2 == 'tenge') {
      print('Сумма для обмена');
-     var Uslovie3 = stdin.readLineSync();
-       var Result = int.parse(Uslovie3!) / int.parse(KZT);
-       print(Result);
+     var uslovie3 = stdin.readLineSync();
+       var result = int.parse(uslovie3!) / (kzt);
+       print(result);
      }
   }
 

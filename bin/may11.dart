@@ -15,6 +15,7 @@ print(taskSeven(y: y));
 
 
 
+
 }
 
 int task (int a) {
@@ -55,9 +56,33 @@ String taskSix({required bool x}) {
 bool taskSeven({required int y}) {
   if (y <0) {
     return false;
-   } else
-   return true;
+   } else {
+    return true;
   }
 
+ 
+
+  }
+void main2(List<String> arguments){
+
+
+ List<int> myList = [1,2,3,4,5,6,7];
+  
+  int myVariable = 0;
+  bool isContains = false;
+
+  myList.forEach((e) {
+    if (myVariable == e) {
+      isContains = true;
+    }
+    myVariable = e;
+   });
+   if (isContains) {
+     print('Yes');
+
+   } else {
+     print('No');
+   }
+}
 
 
