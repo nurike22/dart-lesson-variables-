@@ -1,7 +1,7 @@
 
 void main(List<String> arguments){
 
-List<int> array = [6,1,2,6,3,4,5,6,7,8,9];
+List<int> array = [6,1,2,3,4,5,6,7,8,9];
 
 int variable = 0;
 bool isContains = false;

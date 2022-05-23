@@ -1,6 +1,6 @@
 void main(List<String> arguments) {
 
-List<int> myList = [1,2,3,4,5,6,7];
+List<int> myList = [5,1,2,3,4,5,6,7];
   
   int myVariable = 0;
   bool isContains = false;
