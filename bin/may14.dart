@@ -18,7 +18,7 @@ List<int> myList = [5,1,2,3,4,5,6,7];
      print('No');
    }
 
- List<int> list = [1, 2, 3, 4, 0, 5, 5, 7]; 
+ 
 
  }
  //double average = list.reduce((a, b) => a+b) / list.length;

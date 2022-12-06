@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main(List<String>args) {
   print('Курс на сегодня:');
-  var usd = 84;
+  var usd = 84.2;
   var euro = 87;
   var rub = 1.19;
   var kzt = 0.18;
