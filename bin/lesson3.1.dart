@@ -11,6 +11,10 @@ print(list1[8]);
 //Второй способ
 print(list1.first);
 print(list1.last);
+// Третий способ more proffesional
+print('''Первый элемент - ${list1.first}
+Пятый элемент - ${list1[4]}
+Последний элемент - ${list1.last} ''');
 
 
 // Exercise 2
@@ -52,8 +56,15 @@ print(myFlutter);
 // Exercise 8
 
 List list9 = [1, 9, 3, 195, 202, 2, 5, 7, 9, 10, 3, 15, 0, 11];
+list9.sort((a, b) => a.compareTo(b));
+print(list9);
+list9.sort((b, a) => a.compareTo(b));
+print(list9);
+
+// или просто через сорт
 list9.sort();
 print(list9);
+
 
 
 
