@@ -2,6 +2,7 @@
 
 
 
+import 'dart:io';
 import 'dart:math';
 
 void main() {
@@ -97,6 +98,11 @@ print(eightTotal);
 
 // Упражнение 8
 // Составьте программу, которая вычисляет сумму квадратов чисел от 1 до введенного вами целого числа N
-
-
+ String n = stdin.readLineSync()!;
+ int z = int.parse(n);
+ int summ = 0;
+ for (int i = 1; i <=z;i++) {
+  summ += i*i;
+ }
+ print(summ);
 }
