@@ -42,8 +42,7 @@ void exerciseTwo() {
   Son luke = Son(hand: 'left', eyes: 'brown', look: 'slavic', hair: 'brown');
   anakin.printDetails();
   luke.printDetailstwo();
-  
-}
+  }
 
 class Father {
   String hand;
@@ -52,7 +51,6 @@ class Father {
   String hair;
   void printDetails() {
       print('$hand $eyes $look $hair');
-
     }
   Father({required this.hand, required this.eyes, required this.look, required this.hair});
   }
