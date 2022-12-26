@@ -17,23 +17,23 @@
 
 
 //   Exercise 2
-//   void main(List<String> args) {
-//   CarDetails highlander = CarDetails(nameCar: 'Toyota Highlander', priceCar: 16000, 
-//                                      colorCar: 'Бежевый', powerCar: 187);
-//   highlander.printDetails();}
+  void main(List<String> args) {
+  CarDetails highlander = CarDetails(nameCar: 'Toyota Highlander', priceCar: 16000, 
+                                     colorCar: 'Бежевый', powerCar: 187);
+  highlander.printDetails();}
   
-//   class CarDetails {
-//     String nameCar;
-//     int priceCar;
-//     String colorCar;
-//     int powerCar;
-//     void printDetails() {
-//       print('$nameCar $priceCar $colorCar $powerCar');
-// 
-//     }
-//     CarDetails({required this.nameCar, required this.priceCar, 
-//                 required this.colorCar, required this.powerCar});
-//   }
+  class CarDetails {
+    String nameCar;
+    int priceCar;
+    String colorCar;
+    int powerCar;
+    void printDetails() {
+      print('$nameCar $priceCar $colorCar $powerCar');
+
+    }
+    CarDetails({required this.nameCar, required this.priceCar, 
+                required this.colorCar, required this.powerCar});
+  }
 
 // Exercise 3
 // void main(List<String> args) {
